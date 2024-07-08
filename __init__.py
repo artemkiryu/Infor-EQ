@@ -34,8 +34,8 @@ class TestLoginpage():
 
 
         #Login Informatgion
-        self.driver.find_element(By.ID, "username").send_keys("daniel.schwindt@pgtinnovations.com")
-        self.driver.find_element(By.ID, "pass").send_keys("Fairtex994!")
+        self.driver.find_element(By.ID, "username").send_keys("*******")
+        self.driver.find_element(By.ID, "pass").send_keys("*******")
         # 6 | click | css=.ping-button |
         self.driver.find_element(By.CSS_SELECTOR, ".login-button").click()
 
